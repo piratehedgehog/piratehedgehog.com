@@ -1,0 +1,26 @@
+# Site configuration
+domain: "https://piratehedgehog.com"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://piratehedgehog.com/" # the base hostname & protocol for your site
+permalink: /:title/
+avatar: http://i.imgur.com/aXpBbLj.png
+about: http://7xof48.com1.z0.glb.clouddn.com/about.jpg
+favicon: http://7xof48.com1.z0.glb.clouddn.com/favicon.png
+basecss:
+# Theme specific configuration
+title: Pirate Hedgehog
+description:
+
+exclude: ['node_modules', 'gulpfile.js', 'package.json']
+
+kramdown:
+  input: GFM
+
+# If U enable the comment, edit disqus or duoshuo account of "/_layouts/post.html"
+# before deploy your webpage
+enable_comment: false
+
+gems: ['jekyll-paginate']
+# Pagination
+paginate: 5
+paginate_path: /archive/page:num

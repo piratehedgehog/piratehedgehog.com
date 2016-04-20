@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "browser-sync": "latest",
+    "gulp-cssnano": "latest",
+    "gulp-postcss": "latest",
+    "postcss-calc": "latest",
+    "postcss-custom-properties": "latest",
+    "postcss-import": "latest",
+    "postcss-nested": "latest"
+  }
+}
